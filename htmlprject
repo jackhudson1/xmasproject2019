@@ -1,0 +1,195 @@
+<!xmasproject Jack Hudson 19278594 html>
+<html lang="en">
+<head>
+    <title>Green Will Foundation</title>
+
+    <style>
+    body {
+        margin: 0;
+        background-color:aliceblue;
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+        background: white;
+        position: fixed;
+        top: 0;
+    }
+    header {
+        background: white;
+    }
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .logo {
+        float: left;
+    }
+    nav {
+        float: right;
+        border: 1px solid black;
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        left: 600px;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        table-layout: fixed;
+        display: table;
+        width: 100%;
+    }
+    nav li {
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 16px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+     nav a {
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: black; 
+    }
+    a:hover {
+        color:#0ca828;
+    }
+    nav a::before {
+        content: '';
+        display: block;x
+        height: 5px;
+        background-color: #c46b06;
+        position: absolute;
+        top: 0px;
+        width: 0%;
+        transition: all ease-in-out 250ms;
+    }
+	
+	 }
+    nav li {
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 16px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+	
+    nav a:hover::before {
+        width: 100%;
+    }
+   
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    footer {
+        background-color: #c46200;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: center;
+        color: white;
+		
+
+     .ContactPage	 {
+            font-family: Arial;
+            text-align: center;
+			font-size: 24px;
+        }
+	
+		
+	    
+		.center {
+            position: absolute;
+            left: 30%;
+            top: 32%;
+        }
+		
+		h3 {
+		color: white
+	    font-family: Arial;
+		font-size: 18px;
+	    }
+		
+    </style>
+</head>
+<body  style="size:700px;height:700px;background:url('https://i.imgur.com/id1wCvL.jpg') no-repeat; background-size: cover">
+    <header>
+	
+	
+	<div style="text-align:center">
+    <span class="dot"></span>
+ 
+     </div>
+
+        <div class="container">
+
+            <img src="GreenWillLogo.png" height="50px" width="600px" alt = logo class="logo">
+
+            <nav>
+                <ul>
+                    <li> <a href="HomePage.html">HOME</a> </li>
+                    <li> <a href="AboutPage.html">ABOUT</a> </li>
+                    <li> <a href="#Contact">CONTACT</a> </li>
+                    <li> <a href="#Donate">DONATE</a></li>    
+                </ul>
+            </nav>
+      
+        </div>
+    </header>
+
+    <div class = "ContactPage">
+           
+
+		   <p> <h3> <center>  
+
+  <form contact="contact_page.php"> 
+  
+  
+
+  <br>
+  <br>
+  <br>
+
+<br>
+         <label for="fname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First Name:</label>
+         <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+		 <br>
+
+    
+
+    <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br>
+	<br>
+
+
+
+<label for="email">Email Address:</label>
+    <input type="text" id="email" name="email" placeholder="Your email here..."> <br>
+	<br>
+
+
+
+    <label for="subject">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject:</label>
+    <textarea  name="subject" placeholder="Write your message here and a member of our team will get back to you..."></textarea> <br>
+	<br>
+
+
+
+    <input type="submit" value="Submit"> <br>
+	<br>
+            
+          </p> </center> </h3> </p>
+     </div>
+
+    <footer> Tel:0678585 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: greenwillfoundation@outlook.com </footer>
+	
+	
+</body>
+</html>
